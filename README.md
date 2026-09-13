@@ -206,7 +206,7 @@ A custom route was created using an unused test network address space.
 
 The unused destination was selected so the custom route would not interfere with the working VNet peering configuration.
 
-![Custom Route](10-custom-route-configured.png)
+![Custom Route](10-custom-route-effective-routes.png)
 
 ---
 
