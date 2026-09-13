@@ -72,7 +72,7 @@ Address space:
 
 `10.0.0.0/16`
 
-![VNet-A](screenshots/01-vnet-a-created.png)
+![VNet-A](01-vnet-a-created.png)
 
 ### VM-A
 
@@ -86,7 +86,7 @@ Address space:
 
 An initial second virtual network and virtual machine were created as part of the networking exercise.
 
-![Initial VM-B](screenshots/03-vm-b-created.png)
+![Initial VM-B](03-vm-b-created.png)
 
 ---
 
@@ -102,7 +102,7 @@ This demonstrated that there was no network path between the separate VNets at t
 
 The Network Watcher diagnostics also helped confirm that the tested traffic was not simply being blocked by the NSGs.
 
-![Network Watcher Before Peering](screenshots/04-network-watcher-before-peering.png)
+![Network Watcher Before Peering](04-network-watcher-before-peering.png)
 
 ---
 
@@ -128,7 +128,7 @@ Address space:
 
 A new VM was then deployed into the corrected VNet.
 
-![VM-B2](screenshots/06-vm-b2-created.png)
+![VM-B2](06-vm-b2-created.png)
 
 ---
 
@@ -148,7 +148,7 @@ The peering status became:
 
 **Connected**
 
-![VNet Peerings Connected](screenshots/05-vnet-peerings-connected.png)
+![VNet Peerings Connected](05-vnet-peerings-connected.png)
 
 ---
 
@@ -164,7 +164,7 @@ The result was:
 
 This confirmed successful network connectivity between the peered VNets.
 
-![Network Watcher After Peering](screenshots/07-network-watcher-after-peering.png)
+![Network Watcher After Peering]07-network-watcher-after-peering.png)
 
 ### Connectivity Results
 
@@ -182,7 +182,7 @@ Azure PowerShell was used as an additional method of interacting with and valida
 
 This provided practical experience working with Azure resources through both the **Azure Portal and PowerShell**.
 
-![Azure PowerShell](screenshots/08-powershell-connectivity-test.png)
+![Azure PowerShell](08-powershell-connectivity-test.png)
 
 ---
 
@@ -206,7 +206,7 @@ A custom route was created using an unused test network address space.
 
 The unused destination was selected so the custom route would not interfere with the working VNet peering configuration.
 
-![Custom Route](screenshots/10-custom-route-configured.png)
+![Custom Route](10-custom-route-configured.png)
 
 ---
 
